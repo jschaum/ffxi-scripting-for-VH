@@ -23,5 +23,5 @@ end;
 
 function onUseAbility(player,target,ability)
     --increased duration slightly, 300 is standard
-    player:addStatusEffect(EFFECT_RESTRAINT,1,0,420);
+    player:addStatusEffect(EFFECT_RESTRAINT,1,0,500);
 end;
